@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>devs Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="topnav-right" ><a href="#signin">Sign In</a></li>
+            <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="sectiongradient">
+        <div class="row">
+            <div class="col-6" >
+                <div class="leftsidecol">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Developers</h1>
+                </div>
+                <form>
+                <div class="leftsidecol" >
+                    <h2>Username</h2>
+                    <input class="inputbox" name="username" type="text"placeholder="Username">
+                    <h2>Password</h2>
+                    <input class="inputbox" name="password" type="password"placeholder="Pass">
+                </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightsidecol">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_gW2vf5Yd2Y?si=4I_7S18p5eKFFSrL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="sec2head">The Standards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.jpg" alt="img">   
+                    </div>
+                    <label>chat with me</label>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do jebfiuefuie yebfuiebfuie hwfufuef ebeuifuefuenfw  wdhwjdw as i said i am the batman u think i am hiding in the shadows but i am the shadows.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.jpg" alt="img">
+                    </div>
+                    <label>learn to code</label>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do jebfiuefuie yebfuiebfuie hwfufuef ebeuifuefuenfw  wdhwjdw as i said i am the batman u think i am hiding in the shadows but i am the shadows.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.jpg" alt="img">
+                    </div>
+                    <div class="text">
+                    <label>build an empire</label>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do jebfiuefuie yebfuiebfuie hwfufuef ebeuifuefuenfw  wdhwjdw as i said i am the batman u think i am hiding in the shadows but i am the shadows.
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnmore">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur consectetur adipiscing elit, sed do jebfiuefuie yebfuiebfuie hwfufuef ebeuifuefuenfw wdhwjdw as i said i am the batman u
+                    think i am hiding in the shadows but i am the shadows.consectetur adipiscing elit, sed do jebfiuefuie yebfuiebfuie hwfufuef ebeuifuefuenfw wdhwjdw as i said i am the batman u
+                    think i am hiding in the shadows but i am the shadows.
+                    </p>
+                </article>
+            
+            </div>
+            <div class="col-5">
+                <div class="slopeicon">
+                    <img src="iosdevs.jpg" alt="img">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobilestack">
+                <h1>
+                    company
+                </h1>
+                <ul>
+                    <Li>about</Li>
+                    <li>
+                        blogs
+                    </li>
+                    <li>careers</li>
+                </ul>
+
+            </div><div class="col-3 mobilestack">
+                <h1>
+                    company
+                </h1>
+                <ul>
+                    <Li>about</Li>
+                    <li>
+                        blogs
+                    </li>
+                    <li>careers</li>
+                </ul>
+            
+            </div><div class="col-3 mobilestack">
+                <h1>
+                    company
+                </h1>
+                <ul>
+                    <Li>about</Li>
+                    <li>
+                        blogs
+                    </li>
+                    <li>careers</li>
+                </ul>
+            
+            </div><div class="col-3 mobilestack">
+                <h1>
+                    company
+                </h1>
+                <ul>
+                    <Li>about</Li>
+                    <li>
+                        blogs
+                    </li>
+                    <li>careers</li>
+                </ul>
+            
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function dropdownmenu(){
+            var x = document.getElementById("dropdownclick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+            }
+            else{
+                x.className="topnav"
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+/*#####佛##### Defaults #######*/
+nav,
+header,
+footer {
+display: block;
+}
+body {
+line-height: 1;
+margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-width: 100%;
+}
+label{
+    font-size: 35px;
+    font-weight: bold;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%; }
+.col-18 {width: 83.33%;}
+.col-11 {width: 91.66%; }
+.col-12 {width: 100%;}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+/*# Nav bar***/
+▾ nav {
+    width: 100%;
+    margin: 0;
+    }
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+
+ ul.topnav li{
+    list-style: none;
+    float: left;
+ }
+ ul.topnav li.topnav-right{
+    float: right;
+ }
+
+ ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 10px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #666;
+    ;
+ }
+
+ul.topnav li a:hover{
+    background-color:blue;
+    color: #fff;
+    border-radius:75px 20px;
+    transition: 0.5s;
+    text-shadow: #666;
+}
+ul.topnav li.dropdown{
+    display: none;
+}
+
+/*##############styles#######*/
+#sectiongradient {
+    background: red;
+    background: -o-linear-gradient(blue, yellow);
+    background: -moz-linear-gradient(blue, yellow);
+    background: linear-gradient(blue, yellow);
+}  
+
+div.box {
+    background-color: white;
+    text-align: center; 
+    margin: 24px;
+    border-radius: 7px;
+    
+    padding: 36px 24px 40px 24px;
+    box-shadow:10px 9px 0px 0px rgba(241, 226, 3, 0.75);
+    -webkit-box-shadow: 10px 9px 0px 0px yellow;
+    -moz-box-shadow: 10px 9px 0px 0px yellow;
+}
+.slopeicon{
+    box-shadow: 13px 12px 40px 4px rgba(237, 126, 31, 0.75);
+        -webkit-box-shadow: 13px 12px 40px 4px rgba(237, 126, 31, 0.75);
+        -moz-box-shadow: 13px 12px 40px 4px rgba(237, 126, 31, 0.75);
+}
+.col-5 {
+    display: block;
+    margin: auto;
+
+}
+
+.col-7{
+    font-size: 30px;
+    margin-left: 25px;
+}
+button{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #fff;
+    background-color: blue;
+    padding:15px 60px ;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    margin: 5px;
+}
+button.learnmore{
+    display: block;
+    margin: auto;
+}
+.icon{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.leftsidecol{
+    margin: 30px;
+}
+.rightsidecol{
+    margin:30px
+}
+h1.large{
+    color: #fff;
+    font-size: 56px;
+    margin: 5px;;
+    line-height: 70px;
+}
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7.5px;
+
+}
+form h2{
+    color: #fff;
+   
+}
+input[type="password"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7.5px;
+}
+h1.sec2head{
+    font-size: 65px;
+    text-align: center;
+ }
+
+ footer.footsy{
+    background-color: #666;
+    padding-left: 10%;
+    
+ }
+
+ footer.footsy h1{
+    font-size: 35px;
+    color: #fff;
+ }
+ footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+ }
+ footer.footsy ul li{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+ }
+
+
+
+
+
+/*##########3mobile##########*/
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.topnav li.dropdown{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdown{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive{
+        position: relative;
+    
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    .rightsidecol iframe{
+        position: relative;
+        width:100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    h1.sec2head{
+        font-size: 50px;
+    }
+    .col-6,.col-4,.col-7{
+        width: 100%;
+        margin:0;
+    }
+    div.mobilestack{
+        width: 50%;
+        display: block;
+    }
+    .col-7{
+        margin-left: 15px;
+    }
+    input[type="text"]{
+        width: auto;
+    }
+    input[type="password"]{
+        width: auto;
+    }
+    
+    
+     .col-5 {
+        margin-top: 30px;
+    }
+    }
+    
+
+
+
+
+ 
