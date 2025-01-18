@@ -1,1 +1,1 @@
-# Simple Devslopes landing site made using HTML and CSS
+# Simple landing site made using HTML and CSS
